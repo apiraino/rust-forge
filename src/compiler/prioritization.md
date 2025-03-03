@@ -151,7 +151,7 @@ try to ensure they are assigned when possikle.
 [beta_regressions]: https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Aregression-from-stable-to-beta+-label%3AP-critical+-label%3AP-high+-label%3AP-medium+-label%3AP-low+-label%3AT-infra+-label%3AT-libs+-label%3AT-libs-api+-label%3AT-release+-label%3AT-rustdoc
 [nightly_regressions]: https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3Aregression-from-stable-to-nightly+-label%3AP-critical+-label%3AP-high+-label%3AP-medium+-label%3AP-low+-label%3AT-infra+-label%3AT-libs+-label%3AT-libs-api+-label%3AT-release+-label%3AT-rustdoc
 
-The final step prior to generating the agenda is to accept any MCPs. Any MCPs that have had [the `final-comment-period` label][mcp_fcp] 
+The final step prior to generating the agenda is to accept any MCPs. Any MCPs that have had [the `final-comment-period` label][mcp_fcp]
 for more than ten days can be accepted. Remove the `final-comment-period` label and add the `major-change-accepted` label and then
 close the issue.
 
@@ -176,7 +176,7 @@ Copy the content into a new HackMD in the "Rust Lang Compiler Team" space. Copy 
 Add additional manual details to the agenda:
 
 - Add summaries of stable/beta nominations (e.g. who nominated the backport and why)
-- Add summaries of PRs waiting on the team (i.e. why are they waiting) 
+- Add summaries of PRs waiting on the team (i.e. why are they waiting)
 - Add initial impressions of `P-critical`/`P-high` bugs
 - Add summaries of nominated issues (e.g. who the assignee is, why it was nominated, etc)
 - Populate the oldest PRs waiting on review
@@ -218,12 +218,12 @@ After the meeting, there are a few closing tasks:
   the `I-compiler-nominated` will stick until next meeting. Create a new agenda stub for the
   following.
 
-[beta_nominated]: https://github.com/rust-lang/rust/issues?q=is%3Aall+label%3Abeta-nominated+-label%3Abeta-accepted
-[stable_nominated]: https://github.com/rust-lang/rust/issues?q=is%3Aall+label%3Astable-nominated+-label%3Astable-accepted
-[rust_announce]: https://github.com/rust-lang/rust/issues?q=is%3Aall+label%3Afinished-final-comment-period+label%3Ato-announce
-[team_announce]: https://github.com/rust-lang/compiler-team/issues?q=is%3Aall+label%3Afinished-final-comment-period+label%3Ato-announce
-[forge_announce]: https://github.com/rust-lang/rust-forge/issues?q=is%3Aall+label%3Afinished-final-comment-period+label%3Ato-announce
-[fcps]: https://github.com/rust-lang/compiler-team/issues?q=is%3Aall+label%3Amajor-change+label%3Ato-announce
-[mcps]: https://github.com/rust-lang/compiler-team/issues?q=is%3Aall+label%3Amajor-change+label%3Ato-announce
+[beta_nominated]: https://github.com/rust-lang/rust/issues?q=is%3Apr+label%3Abeta-nominated+-label%3Abeta-accepted
+[stable_nominated]: https://github.com/rust-lang/rust/issues?q=is%3Apr+label%3Astable-nominated+-label%3Astable-accepted
+[rust_announce]: https://github.com/rust-lang/rust/issues?q=label%3Afinished-final-comment-period+label%3Ato-announce
+[team_announce]: https://github.com/rust-lang/compiler-team/issues?q=label%3Afinished-final-comment-period+label%3Ato-announce
+[forge_announce]: https://github.com/rust-lang/rust-forge/issues?q=label%3Afinished-final-comment-period+label%3Ato-announce
+[fcps]: https://github.com/rust-lang/compiler-team/issues?q=label%3Amajor-change+label%3Ato-announce
+[mcps]: https://github.com/rust-lang/compiler-team/issues?q=label%3Amajor-change+label%3Ato-announce
 [relese_backports]: ../release/backporting.md
-[compiler_nominated]: https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3AI-nominated+label%3AT-compiler
+[compiler_nominated]: https://github.com/rust-lang/rust/issues?q=is%3Aopen+label%3AI-compiler-nominated+label%3AT-compiler

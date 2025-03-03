@@ -1,5 +1,5 @@
 # Compiler
-Rust's compiler team are responsible for maintaining the Rust compiler, improving its performance
+Rust's Compiler team are responsible for maintaining the Rust compiler, improving its performance
 and considering the stabilization of compiler features.
 
 We use the Forge to document the team's processes, policies and working practices, if you'd like to
