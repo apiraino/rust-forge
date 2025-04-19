@@ -75,7 +75,7 @@ going to finish soon (use your judgement here), you can "yield"
 priority to the stable release PR by going into that PR and typing this
 comment:
 
-> @bors retry  
+> @bors retry
 > Yield priority to the stable release.
 
 ### `beta` PR
@@ -206,6 +206,7 @@ the blog and internals with the new information.
   to setup your environment and how to authenticate with AWS the first time you
   execute it.
 
+[awscli]: https://forge.rust-lang.org/infra/docs/aws-access.html#using-the-aws-console
 [rust-lang/rust]: https://github.com/rust-lang/rust
 [rust-lang/release-team]: https://github.com/rust-lang/release-team
 [ripgrep]: https://github.com/burntsushi/ripgrep
