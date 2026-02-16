@@ -45,7 +45,7 @@ be effective:
       the PR contains risks, is it sufficiently justified? Does the changes need ecosystem impact
       evaluation through crater runs?
     - Will the PR introduce significant perf changes? If there might be a perf regression, is
-      it justified? Does the PR need a perf run? 
+      it justified? Does the PR need a perf run?
     - Can the reviewer perform the review sufficiently thorough and in a timely fashion?
     - Is the reviewer impartial enough to provide a sufficiently unbiased perspective? e.g. due
       to co-authorship (sufficiently significant changes to the PR made by the reviewer) or other
@@ -169,7 +169,7 @@ cleared up? Then you are in the clear.
 
 If you are in doubt if something is contentious, give a heads up to `@rust-lang/compiler` and ask
 for another opinion. If you think a might contribution require broader team approval, check
-the [*Proposals, Approvals and Stabilization*](./proposals-and-stabilization.md) documentation. 
+the [*Proposals, Approvals and Stabilization*](./proposals-and-stabilization.md) documentation.
 
 ### Reviewing and Mentoring
 In the course of mentoring someone through a PR it often happens that the reviewer has ended up
@@ -223,7 +223,7 @@ Require a doc comment on such APIs identifying which external consumers the API 
 what kinds of purpose.
 
 If you think a might contribution require broader team approval, check the [*Proposals, Approvals
-and Stabilization*](./proposals-and-stabilization.md) documentation. 
+and Stabilization*](./proposals-and-stabilization.md) documentation.
 
 Note that this can non-obviously bound supposedly-internal compiler APIs to external consumers.
 Convey to the external consumers (that are not `rust-lang/` projects) that we can offer the
@@ -326,18 +326,18 @@ specific PR that is being fully or partially reverted. Link to relevant issues a
 Retain the commit hash being reverted.
 
 > **Example revert commit title and message**
-> 
+>
 > ```text
 > Revert #131669 due to ICEs
-> 
+>
 > Revert <https://github.com/rust-lang/rust/pull/131669> due to ICE
 > reports:
-> 
+>
 > - <https://github.com/rust-lang/rust/issues/134059> (real-world)
 > - <https://github.com/rust-lang/rust/issues/134060> (fuzzing)
-> 
+>
 > The changes can be re-landed with those cases addressed.
-> 
+>
 > This reverts commit 703bb982303ecab02fec593899639b4c3faecddd, reversing
 > changes made to f415c07494b98e4559e4b13a9c5f867b0e6b2444.
 > ```
@@ -476,7 +476,7 @@ Rebasing is fine and often necessary, but changes in functionality typically req
 It is very helpful for the reviewer if the PR author can produce a brief summary of what has
 changed since last review, in addition to responding to individual review comments.
 
-Please refer to [bors documentation for bot usage](../infra/docs/bors.md).
+Please refer to [bors documentation for bot usage](https://bors.rust-lang.org/help).
 
 ## Social aspects of reviewing
 First and foremost, PR authors and compiler reviews alike are expected to uphold the [Code of
