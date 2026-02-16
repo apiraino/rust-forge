@@ -55,7 +55,7 @@ Stabilized APIs and Const Stabilized APIs should both be formatted roughly as fo
 Note that:
 
 * this is not a PR link, but directly links the standard library docs.
-* the link is to stable docs (and so may not actually work at time of writing)
+* the link is to stable docs (and so may not actually work at time of writing).
 * the API is directly noted. Sometimes we compress APIs (e.g., `uN` for
   unsigned integers) to avoid too much text.
 * link fragments can be long and hard to predict, so it is often better to copy and paste the url than write it manually
