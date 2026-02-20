@@ -31,6 +31,6 @@ fallback = [
 "/src/libs" = ["libs"]
 "/src/platforms" = ["infra"]
 "/src/release" = ["release"]
+"/src/rustc-dev-guide" = ["rustc-dev-guide"]
 "/src/rustdoc" = ["rustdoc"]
 "/src/triagebot" = ["triagebot"]
-"/src/wg-rustc-dev-guide" = ["wg-rustc-dev-guide"]
