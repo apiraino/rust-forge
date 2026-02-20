@@ -73,7 +73,7 @@ copy maintained in the rust-lang/rust repo.
 2. There will either be an automatically opened rustc-pull PR, or a manual rustc-pull will be needed if there are merge 
 conflicts. If there is a rustc-pull PR open, merge it[^1], otherwise a manual rustc-pull should be performed.
 See [rustc-dev-guide#2451] for an example rustc-pull.
-3. Post in the [zulip channel for coordinating subtree syncs][subtree_coordination] that you're doing a sync
+3. Post in the [zulip channel for coordinating subtree syncs][subtree_coordination] that you're doing a sync.
 4. Do a manual rustc-push and open the PR. The PR should be assigned to a rustc-dev-guide lead
 (currently @BoxyUwU or @jieyouxu). We tend to assign rustc-push PRs to people instead of self
 approving like some other teams. This is because there were some accidents when the subtree was originally
