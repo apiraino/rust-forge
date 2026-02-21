@@ -25,6 +25,15 @@ official website for more resources.
 **Please ask questions!** A lot of people report feeling that they are "wasting
 expert time", but we do not feel that way. Contributors are important to us.
 
+If you want to contribute substancial changes, please follow the recommended path of a Major
+Change Proposal (MCP) or a Request For Comment (RFC) in order to have a prior discussion and
+team buyout. You can learn more about what constitutes as "substancial" by reading the relevant
+sections of the documentation for the [compiler][mcp-or-rcp-compiler] and for
+[rustdoc][mcp-or-rcp-rustdoc].
+
+[mcp-or-rcp-compiler]: compiler/proposals-and-stabilization.html
+[mcp-or-rcp-rustdoc]: rustdoc/proposals-and-stabilization.html
+
 ## How to start contributing?
 
 The Rust project is quite large and it can be difficult to know which parts of the project need
