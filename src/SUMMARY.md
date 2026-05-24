@@ -4,7 +4,7 @@
 - [How to start contributing](./how-to-start-contributing.md)
 - [Onboarding to the project](./onboarding.md)
 - [Platforms](./platforms/index.md)
-  - [Twitter](./platforms/twitter.md)
+  - [Social media](./platforms/social_media.md)
   - [Discord](./platforms/discord.md)
   - [Email](./platforms/email.md)
   - [GitHub](./platforms/github.md)
